@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 数据与产物（由 pipeline 生成，不进 Git）
+data/
+*.parquet
+*.csv
+mlruns/
+outputs/
+*.pt
+*.onnx
+
+# 工具与系统
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.env
