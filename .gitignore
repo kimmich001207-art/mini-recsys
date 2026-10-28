@@ -5,7 +5,7 @@ __pycache__/
 *.egg-info/
 
 # 数据与产物（由 pipeline 生成，不进 Git）
-data/
+/data/
 *.parquet
 *.csv
 mlruns/

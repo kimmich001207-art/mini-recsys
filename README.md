@@ -5,6 +5,13 @@
 数据：阿里天池 UserBehavior（按用户抽样）。
 模型：双塔召回 + DNN/DIN 排序（刻意保持简单，重点在模型周围的工程）。
 
+## 快速开始
+
+需要先安装 [uv](https://docs.astral.sh/uv/)。
+
+    uv sync
+    uv run pytest
+
 ## 状态
 - [x] 第 0 周：项目骨架 finished
 
